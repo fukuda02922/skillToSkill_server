@@ -34,9 +34,10 @@
 * 「ap-northeast-1」を入力
 * そのまま`Enter`
 
-3. serverless.tsのプロファイル名変更
+3. serverless.ts.sampleをコピーして、serverless.tsを作成する
 
-provider -> profileを変更
+* provider->profileを正しいユーザーに変更
+* provider->roleを正しいものに変更
 
 3. プロジェクトに必要なライブラリのインストール
 
@@ -45,3 +46,4 @@ provider -> profileを変更
 4. デプロイしてみる
 
 `sls deploy`
+
